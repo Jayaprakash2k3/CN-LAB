@@ -1,8 +1,8 @@
 <h1>
 Server.py
 </h1>
-![Alt text](server.png?raw=true "Server")
+<img src="server.png">
 <h1>
 Client.py
 </h1>
-![Alt text](client.png?raw=true "Client")
+<img src="client.png">
