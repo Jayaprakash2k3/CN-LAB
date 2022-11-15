@@ -3,7 +3,7 @@ c=socket.socket()
 PORT=12345
 c.connect(('localhost',PORT))
 while True:
-    msg=c.recv(1024).decode()
+    msg=c.recv(2).decode()
     print(f'{msg} has been received')
     if(msg!=''):
         c.send("1".encode())
