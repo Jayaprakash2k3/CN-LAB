@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Client",
+      "request": "launch",
+      "mainClass": "DHCP.Client",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch DHCPServer",
+      "request": "launch",
+      "mainClass": "DHCP.DHCPServer",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch Client",
+      "request": "launch",
+      "mainClass": "Client",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
       "name": "Launch DHCPServer",
       "request": "launch",
       "mainClass": "DHCPServer",
