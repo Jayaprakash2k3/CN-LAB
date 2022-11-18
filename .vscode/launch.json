@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch DHCPServer",
+      "request": "launch",
+      "mainClass": "DHCPServer",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
       "name": "Launch IPPlan",
       "request": "launch",
       "mainClass": "IPPlan",

@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 class IPPlan
     {
@@ -19,7 +18,7 @@ class IPPlan
             int total=0;
             for(int k :hosts)
                 total+=k;
-            
+                
             if(total>252)
                 System.out.println("Total Host must be less than or equal to 252");
             else
