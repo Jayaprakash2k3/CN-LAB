@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch IPPlan",
+      "request": "launch",
+      "mainClass": "IPPlan",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch IPPlan",
+      "request": "launch",
+      "mainClass": "Subnetting.IPPlan",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch client",
+      "request": "launch",
+      "mainClass": "client",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch server",
+      "request": "launch",
+      "mainClass": "server",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "type": "java",
+      "name": "Launch A",
+      "request": "launch",
+      "mainClass": "A",
+      "projectName": "CN-LAB_92a62d0c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Jayaprakash/Desktop/Quick Access/SEM 5/CN-LAB",
+      "program": "c:/Users/Jayaprakash/Desktop/Quick Access/SEM 5/CN-LAB/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
