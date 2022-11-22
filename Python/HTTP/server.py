@@ -1,4 +1,5 @@
 import socket 
+import webbrowser
 s=socket.socket()
 s.bind(("",12345))
 s.listen(5)
@@ -12,4 +13,5 @@ with open("download.html", "wb") as f:
             break
         f.write(bytes_read)
         print("Recived:"+bytes_read.decode())
+webbrowser.open("download.html")
 s.close()

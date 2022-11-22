@@ -12,3 +12,4 @@ Client.py
 Output
 </h1>
 <img src="output.png">
+<img src="output2.png">
