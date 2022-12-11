@@ -19,7 +19,7 @@ class IPPlan
             for(int k :hosts)
                 total+=k;
                 
-            if(total>252)
+            if(total>253)
                 System.out.println("Total Host must be less than or equal to 252");
             else
             {

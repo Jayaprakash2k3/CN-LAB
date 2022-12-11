@@ -1,4 +1,3 @@
-#some Minor Correction will be Done in the afternoon
 import socket
 c=socket.socket()
 PORT=12345

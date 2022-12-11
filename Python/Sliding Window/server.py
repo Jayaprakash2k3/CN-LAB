@@ -1,5 +1,3 @@
-#some Minor Correction will be Done in the afternoon
-# Reamining Codes will be uploaded in the afternoon
 import socket
 s=socket.socket()
 PORT=12345
